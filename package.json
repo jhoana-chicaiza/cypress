@@ -1,0 +1,24 @@
+{
+  "name": "platzi-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:update:snapshot": "cypress open --env updateSnapshots=true",
+    "variable: entorno": "cypress open --env VARIABLE_DE_ENTORNO=valor"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "cypress": "^13.12.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^3.3.1"
+  }
+}
